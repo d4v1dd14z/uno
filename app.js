@@ -1,7 +1,7 @@
 /* ====================== CONFIG ====================== */
 const DEFAULT_SERVER = (location.protocol === 'https:')
-  ? 'wss://unoserver-3.onrender.com'
-  : 'wss://unoserver-3.onrender.com';
+  ? 'wss://CAMBIA-ESTO.onrender.com'
+  : 'ws://localhost:3000';
 let SERVER_URL = localStorage.getItem('uno_server') || DEFAULT_SERVER;
 /* ====================== STATE ====================== */
 let ws = null;
